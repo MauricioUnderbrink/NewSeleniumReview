@@ -5,16 +5,16 @@ import org.openqa.selenium.WebDriver;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
-import testcoreutils.WaitsUtils;
+import testcoreutils.WaitUtils;
 
 public class BasicAuthTest extends BaseTest {
-    WaitsUtils waitsUtils;
+    WaitUtils waitUtils;
     WebDriver driver;
 
     @BeforeClass
     public void setUp(){
         setUp("chrome");
-        this.waitsUtils = new WaitsUtils(driver);
+        this.waitUtils = new WaitUtils(driver);
 
     }
     @BeforeMethod

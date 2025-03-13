@@ -6,14 +6,13 @@ import org.testng.Assert;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
-import testcoreutils.WaitsUtils;
+import testcoreutils.WaitUtils;
 
 import java.util.*;
 
 public class ChallengingDomTest extends BaseTest {
 
-    WaitsUtils waitsUtils;
-    WebDriver driver;
+    WaitUtils waitUtils;
 
     String[] columnValues =
             {"Iuvaret",
@@ -30,7 +29,7 @@ public class ChallengingDomTest extends BaseTest {
     @BeforeClass
     public void setUp() {
         setUp("chrome");
-        this.waitsUtils = new WaitsUtils(driver);
+        this.waitUtils = new WaitUtils(driver);
 
     }
 

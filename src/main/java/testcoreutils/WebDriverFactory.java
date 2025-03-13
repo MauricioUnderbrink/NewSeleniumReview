@@ -7,11 +7,6 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 
 public class WebDriverFactory {
 
-    private WebDriver driver;
-
-    public WebDriverFactory(WebDriver driver){
-        this.driver = driver;
-    }
 
     /**
      * Creates and returns a WebDriver instance based on the browser type.

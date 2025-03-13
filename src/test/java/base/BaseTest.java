@@ -15,15 +15,15 @@ import java.io.IOException;
 
 public class BaseTest {
 
-
-   private  WebDriver driver;
-   protected HomePage homePage;
+   protected WebDriver driver;
+    protected HomePage homePage;
 
     protected final String THE_INTERNET_URL = "https://the-internet.herokuapp.com/";
 
     protected final String AUTOMATION_URL = "http://www.automationpractice.pl/index.php";
 
-   public void setUp(String browser){
+
+    public void setUp(String browser){
        driver = WebDriverFactory.createDriver(browser);
        navigateToHomePage();
        driver.manage().window().maximize();

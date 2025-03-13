@@ -4,29 +4,31 @@ import base.BaseTest;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.testng.Assert;
+import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
-import testcoreutils.WaitsUtils;
-import testcoreutils.WebDriverFactory;
+import testcoreutils.WaitUtils;
 
 import java.util.List;
 
 public class AddAndRemoveElementsTest extends BaseTest {
 
-    WaitsUtils waitsUtils;
-    WebDriver driver;
+    WaitUtils waitUtils;
+
 
     @BeforeClass
-    public void setUp(){
+    public void setUp() {
         setUp("chrome");
-        this.waitsUtils = new WaitsUtils(driver);
-
+        this.waitUtils = new WaitUtils(driver);
     }
+
     @BeforeMethod
     public void goToHomePage() {
         navigateToHomePage();
-    }
+}
+
+
 
     @Test
     public void testAddingElementsToPage(){
@@ -75,7 +77,7 @@ public class AddAndRemoveElementsTest extends BaseTest {
 
         }
 
-        boolean isGone = waitsUtils.fluentWaitForElementToDisappear(addRemoveElementsPage.deleteButtonLocator(),10,500);
+        boolean isGone = waitUtils.fluentWaitForElementToDisappear(addRemoveElementsPage.deleteButtonLocator(),10,500);
         Assert.assertTrue(isGone, "Element did not disappear");
 
     }

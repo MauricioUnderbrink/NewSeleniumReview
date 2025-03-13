@@ -1,13 +1,10 @@
 package page_elements;
 
 import org.openqa.selenium.By;
-import org.openqa.selenium.SearchContext;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.support.ui.Wait;
-import testcoreutils.WaitsUtils;
+import testcoreutils.WaitUtils;
 
-import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
@@ -17,11 +14,11 @@ import static org.openqa.selenium.By.xpath;
 public class ChallengingDomPage {
 
     private WebDriver driver;
-    private WaitsUtils waitsUtils;
+    private WaitUtils waitUtils;
 
     public ChallengingDomPage(WebDriver driver) {
         this.driver = driver;
-        this.waitsUtils = new WaitsUtils(driver);
+        this.waitUtils = new WaitUtils(driver);
     }
 
 
@@ -41,7 +38,7 @@ public class ChallengingDomPage {
     }
 
     public List<WebElement> getAllLeftButtonsElements() {
-        return waitsUtils.fluentWaitForElements(allLeftButtonsLocator, 10, 3);
+        return waitUtils.fluentWaitForElements(allLeftButtonsLocator, 10, 3);
     }
 
     public void clickTopLeftButtonByIndex(int index) {

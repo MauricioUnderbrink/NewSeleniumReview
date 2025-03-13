@@ -5,18 +5,17 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.FluentWait;
-import org.openqa.selenium.support.ui.Wait;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
 import java.time.Duration;
 import java.util.List;
 import java.util.NoSuchElementException;
 
-public class WaitsUtils {
+public class WaitUtils {
 
     private static WebDriver driver;
 
-    public WaitsUtils(WebDriver driver){
+    public WaitUtils(WebDriver driver){
         this.driver = driver;
 
 
@@ -38,9 +37,14 @@ public class WaitsUtils {
      * @param timeout the time to wait before it times out
      * @return returns the WebElement
      */
-    public WebElement waitForElementToBeVisible(By locator, int timeout) {
+    public WebElement waitForElementToBeVisibleByLocator(By locator, int timeout) {
         WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(timeout));
         return wait.until(ExpectedConditions.visibilityOfElementLocated(locator));
+    }
+
+    public WebElement waitForElementToBeVisibleByWebElement(WebElement element, int timeout) {
+        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(timeout));
+        return wait.until(ExpectedConditions.visibilityOf(element));
     }
 
     /**

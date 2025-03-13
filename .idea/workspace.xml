@@ -5,9 +5,30 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="58144504-2771-422b-aaed-6e34f7d638ec" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/page_elements/DragAndDropPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/page_elements/DropdownPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/page_elements/DynamicContentPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/page_elements/FileDownloadPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/page_elements/FileUploadPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/page_elements/FramesPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/page_elements/HorizontalSliderPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/page_elements/HoversPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/page_elements/JavaScriptAlertsPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/page_elements/KeyPressesPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/page_elements/MultipleWindowsPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/page_elements/NestedFramesPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/drag_and_drop/DragAndDropTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/page_elements/AddRemoveElementsPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/page_elements/AddRemoveElementsPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/page_elements/BasicAuthPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/page_elements/BasicAuthPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/page_elements/ChallengingDomPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/page_elements/ChallengingDomPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/page_elements/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/page_elements/HomePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/testcoreutils/WaitsUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/testcoreutils/WaitsUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/testcoreutils/WaitUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/testcoreutils/WaitUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/testcoreutils/WebDriverFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/testcoreutils/WebDriverFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/add_remove_elements/AddAndRemoveElementsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/add_remove_elements/AddAndRemoveElementsTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/base/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/base/BaseTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/basic_auth/BasicAuthTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/basic_auth/BasicAuthTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/challenging_dom/ChallengingDomTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/challenging_dom/ChallengingDomTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,7 +67,7 @@
       <recent name="page_elements" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.ChallengingDomTest">
+  <component name="RunManager" selected="TestNG.DragAndDropTest">
     <configuration name="AddAndRemoveElementsTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="NewSeleniumReview" />
       <extension name="coverage">
@@ -98,11 +119,40 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="DragAndDropTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="NewSeleniumReview" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="drag_and_drop.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="drag_and_drop" />
+      <option name="MAIN_CLASS_NAME" value="drag_and_drop.DragAndDropTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="&lt;default&gt;" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="NewSeleniumReview" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="PACKAGE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.DragAndDropTest" />
         <item itemvalue="TestNG.ChallengingDomTest" />
-        <item itemvalue="TestNG.BasicAuthTest" />
         <item itemvalue="TestNG.AddAndRemoveElementsTest" />
+        <item itemvalue="TestNG.&lt;default&gt;" />
+        <item itemvalue="TestNG.BasicAuthTest" />
       </list>
     </recent_temporary>
   </component>
@@ -133,7 +183,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/add_remove_elements/AddAndRemoveElementsTest.java</url>
-          <line>60</line>
+          <line>62</line>
           <option name="timeStamp" value="5" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
@@ -143,13 +193,18 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/challenging_dom/ChallengingDomTest.java</url>
-          <line>88</line>
+          <line>87</line>
           <option name="timeStamp" value="11" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/challenging_dom/ChallengingDomTest.java</url>
-          <line>93</line>
+          <line>92</line>
           <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/drag_and_drop/DragAndDropTest.java</url>
+          <line>32</line>
+          <option name="timeStamp" value="16" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

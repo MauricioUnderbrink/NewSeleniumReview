@@ -1,14 +1,13 @@
 package page_elements;
 
-import org.openqa.selenium.Alert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
-import testcoreutils.WaitsUtils;
+import testcoreutils.WaitUtils;
 
 public class BasicAuthPage {
 
     private WebDriver driver;
-    private WaitsUtils waitsUtils;
+    private WaitUtils waitUtils;
 
 
     private By usernameField = By.id("username");
@@ -18,7 +17,7 @@ public class BasicAuthPage {
 
     public BasicAuthPage(WebDriver driver) {
         this.driver = driver;
-        this.waitsUtils = new WaitsUtils(driver);
+        this.waitUtils = new WaitUtils(driver);
     }
 
     public void setUsername(String username){
