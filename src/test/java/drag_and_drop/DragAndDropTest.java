@@ -74,7 +74,7 @@ public class DragAndDropTest extends BaseTest {
 
         Assert.assertEquals(getFirstColumnName1, getSecondColumnName2);
         Assert.assertEquals(getSecondColumnName1, getFirstColumnName2);
-        
+
     }
 
 }

@@ -5,30 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="58144504-2771-422b-aaed-6e34f7d638ec" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/page_elements/DragAndDropPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/page_elements/DropdownPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/page_elements/DynamicContentPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/page_elements/FileDownloadPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/page_elements/FileUploadPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/page_elements/FramesPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/page_elements/HorizontalSliderPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/page_elements/HoversPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/page_elements/JavaScriptAlertsPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/page_elements/KeyPressesPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/page_elements/MultipleWindowsPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/page_elements/NestedFramesPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/drag_and_drop/DragAndDropTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/page_elements/AddRemoveElementsPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/page_elements/AddRemoveElementsPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/page_elements/BasicAuthPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/page_elements/BasicAuthPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/page_elements/ChallengingDomPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/page_elements/ChallengingDomPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/page_elements/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/page_elements/HomePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/testcoreutils/WaitUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/testcoreutils/WaitUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/testcoreutils/WebDriverFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/testcoreutils/WebDriverFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/add_remove_elements/AddAndRemoveElementsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/add_remove_elements/AddAndRemoveElementsTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/base/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/base/BaseTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/basic_auth/BasicAuthTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/basic_auth/BasicAuthTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/challenging_dom/ChallengingDomTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/challenging_dom/ChallengingDomTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/dropdown/DropDownTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/page_elements/DropdownPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/page_elements/DropdownPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/drag_and_drop/DragAndDropTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/drag_and_drop/DragAndDropTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,7 +46,7 @@
       <recent name="page_elements" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.DragAndDropTest">
+  <component name="RunManager" selected="TestNG.DropDownTest">
     <configuration name="AddAndRemoveElementsTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="NewSeleniumReview" />
       <extension name="coverage">
@@ -78,23 +57,6 @@
       </extension>
       <option name="PACKAGE_NAME" value="add_remove_elements" />
       <option name="MAIN_CLASS_NAME" value="add_remove_elements.AddAndRemoveElementsTest" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="BasicAuthTest" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="NewSeleniumReview" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="basic_auth.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="basic_auth" />
-      <option name="MAIN_CLASS_NAME" value="basic_auth.BasicAuthTest" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -136,6 +98,23 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="DropDownTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="NewSeleniumReview" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="dropdown.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="dropdown" />
+      <option name="MAIN_CLASS_NAME" value="dropdown.DropDownTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="&lt;default&gt;" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="NewSeleniumReview" />
       <option name="PACKAGE_NAME" value="" />
@@ -148,11 +127,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.DropDownTest" />
         <item itemvalue="TestNG.DragAndDropTest" />
         <item itemvalue="TestNG.ChallengingDomTest" />
         <item itemvalue="TestNG.AddAndRemoveElementsTest" />
         <item itemvalue="TestNG.&lt;default&gt;" />
-        <item itemvalue="TestNG.BasicAuthTest" />
       </list>
     </recent_temporary>
   </component>
@@ -205,6 +184,11 @@
           <url>file://$PROJECT_DIR$/src/test/java/drag_and_drop/DragAndDropTest.java</url>
           <line>32</line>
           <option name="timeStamp" value="16" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/dropdown/DropDownTest.java</url>
+          <line>30</line>
+          <option name="timeStamp" value="17" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
