@@ -27,4 +27,9 @@ public class HomePage {
         return new BasicAuthPage(driver);
     }
 
+    public ChallengingDomPage clickChallengingDomLink(){
+        clickLink("Challenging DOM");
+        return new ChallengingDomPage(driver);
+    }
+
 }

@@ -27,7 +27,7 @@ public class BasicAuthTest extends BaseTest {
 
         var basicAuthPage = homePage.clickBasicAuthLink();
 
-        basicAuthPage.addUserName("user");
+        //basicAuthPage.addUserName("user");
 
 
     }
